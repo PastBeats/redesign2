@@ -81,38 +81,38 @@
 	</nav>
 
 
-	
+	<script src="parsley.min.js"></script>
 	<div class="fh5co-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 animate-box">
 					<h3>Get In Touch</h3>
-					<form method="POST" action="https://formspree.io/bbqsauce_prod@yahoo.com">
+					<form method="POST" action="https://formspree.io/bbqsauce_prod@yahoo.com" data-parsley-validate="">
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="fname">First Name</label> -->
-								<input type="text" name="name" id="fname" class="form-control" placeholder="Your name">
+								<input type="text" name="name" required="" id="fname" class="form-control" placeholder="Your name">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="email">Email</label> -->
-								<input type="text" name="email" id="email" class="form-control" placeholder="Your email address">
+								<input type="text" name="email" required="" id="email" class="form-control" placeholder="Your email address">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="subject">Subject</label> -->
-								<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+								<input type="text" name="subject" required="" id="subject" class="form-control" placeholder="Subject">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
+								<textarea name="message" id="message" required="" cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
