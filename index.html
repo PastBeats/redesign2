@@ -5,14 +5,7 @@
         var host = "www.pastbeats.shop";
         if ((host == window.location.host) && (window.location.protocol != "https:"))
             window.location.protocol = "https";
-    </script>
-        <script type="text/javascript">
-    $(window).on('load resize',function(){
-        if($(window).width() < 1200){
-            window.location = "https://www.google.com"
-        }
-    });
-</script>
+    
         
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -164,7 +157,16 @@
 	<div class="gototop js-top">
 		<a href="index.html" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+		
+	</script>
+        <script type="text/javascript">
+    $(window).on('load resize',function(){
+        if($(window).width() < 1200){
+            window.location = "https://www.google.com"
+        }
+    });
+</script>
+		
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
