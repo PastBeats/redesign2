@@ -1,6 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<script type="text/javascript">
+    $(window).on('load resize',function(){
+        if($(window).width() < 1200){
+            window.location = "https://www.google.com"
+        }
+    });
+</script>
     <script type="text/javascript">
         var host = "www.pastbeats.shop";
         if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -158,13 +165,7 @@
 		<a href="index.html" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 		
-        <script type="text/javascript">
-    $(window).on('load resize',function(){
-        if($(window).width() < 1200){
-            window.location = "https://www.google.com"
-        }
-    });
-</script>
+        
 		
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
